@@ -157,7 +157,6 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
 #app-mount .closeButton-1tv5uR:hover path {fill: white}
 #app-mount .closeButton-1tv5uR + .keybind-KpFkfr {color: var(--text-normal);}
 .background-1QDuV2 { border-radius: var(--dplus-radius-ui); }
-.background-1QDuV2 .avatarUploaderInner-3UNxY3 {border-radius: var(--dplus-radius-avatar);}
 .item-26Dhrx:hover:not([aria-checked=true]) {background-color: var(--dplus-bgc-ui-card-hover);}
 
 
