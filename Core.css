@@ -168,7 +168,12 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
     background: var(--gradient);
     color: rgb(0, 140, 255);
     background-color: rgba(0, 132, 255, 0.03);
-} 
+}
+
+.tabBar-ZmDY9v .badge-1Skb69 {
+    background-color: rgb(240, 42, 42);
+    margin-left: 6px;
+}
 
  #app-mount::after {
      content: none;
