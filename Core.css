@@ -342,10 +342,5 @@ a, button, div, input, label, select, strong, textarea {
 }
 
 .nowPlayingColumn-2sl4cE {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 30%;
-    flex: 0 1 30%;
-    min-width: 360px;
-    max-width: 420px;
-    background: transparent;
+    background: transparent !important;
 }
