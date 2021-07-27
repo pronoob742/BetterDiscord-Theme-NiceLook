@@ -189,3 +189,92 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
      box-sizing: border-box;
      opacity: 0;
  }
+
+.theme-dark {
+    --background-primary: rgba(9, 24, 51, 0);
+    --background-secondary: rgba(0, 11, 30, 0.247);
+    --background-tertiary: rgba(0, 11, 30, 0);
+    --deprecated-panel-background: rgba(9, 24, 51, 0);
+    --channeltextarea-background: rgba(19, 62, 124, 0);
+}
+
+body {
+    background: url('https://github.com/pronoob742/BetterDiscord-Theme-NiceLook/blob/main/NiceLook--Background-Image.jpg?raw=true');
+    background-size: cover;
+    backdrop-filter: blur(var(--background-image-blur));
+}
+
+.userPopout-xaxa6l {
+    background-color: rgba(0, 119, 255, 0.05);
+}
+
+.bodyInnerWrapper-26fQXj {
+    background-color: var(--profile-popup-text-color);
+}
+
+.input-2_SIlA {
+    background-color: var(--profile-popup-text-color);
+}
+
+.footer-3UKYOU {
+    background-color: rgba(0, 119, 255, 0.05);
+}
+
+.mentioned-xhSam7 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ephemeral-1PsL1r:before, .mentioned-xhSam7:before, .replying-1x3H0T:before {
+    background-color: #008ae6;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    background: rgba(0, 11, 30, 0.062);
+}
+
+.scroller-1Bvpku {
+    background-color: rgba(0, 11, 30, 0.74);
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.sidebarRegionScroller-3MXcoP {
+    background-color: rgba(0, 11, 30, 0.534);
+}
+
+.panels-j1Uci_ {
+    background-color: rgba(1, 6, 14, 0.527);
+}
+
+.theme-dark {
+    --scrollbar-thin-thumb: var(--scrollbar-colour);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--scrollbar-colour);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: transparent;
+    --scrollbar-auto-scrollbar-color-track: transparent;
+}
+
+.cozy-3raOZG .timestamp-3ZCmNB {
+    color: rgba(194, 194, 194, 0.712);
+}
+
+.content-2M3n_H a {
+    color: white;
+}
+.content-2M3n_H {
+    color: var(--text-color);
+}
+
+.overflow-WK9Ogt {
+    color: var(--text-color);
+}
+
+a, button, div, input, label, select, strong, textarea {
+    outline: 0;
+    color: var(--name-text-color);
+}
