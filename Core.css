@@ -8,6 +8,10 @@
     --normal-backround-image: url('https://github.com/pronoob742/BetterDiscord-Theme-NiceLook/blob/main/NiceLook--Background-Image.jpg?raw=true');
 }
 
+.nowPlayingColumn-2sl4cE {
+    background: transparent !important;
+}
+
 body, button, select, ::-webkit-input-placeholder {
 	font-family: var(--dplus-font-ui), 'Poppins', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', 'Oxygen',"Pacifico", "Fredoka One", "Concert One", "Rubik", sans-serif !important;
 }
@@ -339,8 +343,4 @@ a, button, div, input, label, select, strong, textarea {
     background-color: #2f313600;
     -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
     box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
-}
-
-.nowPlayingColumn-2sl4cE {
-    background: transparent !important;
 }
