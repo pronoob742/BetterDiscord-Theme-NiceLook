@@ -315,3 +315,28 @@ a, button, div, input, label, select, strong, textarea {
 .colorable-1bkp8v.primaryDark-3mSFDl {
     background: rgba(0, 11, 30, 0.288);
 }
+
+
+.theme-dark .container-1D34oG {
+    background-color: transparent;
+}
+
+.theme-dark .elevationHigh-3A9Xbf {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+}
+.root-3JVdIJ {
+    background: transparent;
+}
+
+.theme-dark .root-1gCeng {
+    background-color: #36393f00;
+    -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+}
+
+.theme-dark .footer-2gL1pp {
+    background-color: #2f313600;
+    -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+}
