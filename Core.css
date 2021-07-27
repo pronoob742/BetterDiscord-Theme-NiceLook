@@ -5,6 +5,7 @@
     
 	  --dplus-spacing-ui: 20px;
 	  --dplus-spacing-app: 10px;
+    --normal-backround-image: url('https://github.com/pronoob742/BetterDiscord-Theme-NiceLook/blob/main/NiceLook--Background-Image.jpg?raw=true');
 }
 
 body, button, select, ::-webkit-input-placeholder {
