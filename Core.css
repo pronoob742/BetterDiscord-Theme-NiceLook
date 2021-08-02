@@ -353,8 +353,18 @@ a, button, div, input, label, select, strong, textarea {
     background: rgba(3, 13, 32, 0.671);
 }
 
-.markup-2BOw-j {
+
+.markup-2BOw-j a {
     color: rgb(0, 255, 0);
+    word-break: break-word;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content-2M3n_H a {
+    cursor: pointer;
+    color: var(--interactive-active);
+    font-weight: 500;
 }
 
 .modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
