@@ -15,45 +15,44 @@
 body, button, select, ::-webkit-input-placeholder {
 	font-family: var(--dplus-font-ui), 'Poppins', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', 'Oxygen',"Pacifico", "Fredoka One", "Concert One", "Rubik", sans-serif !important;
 }
-	/* Text font */
+
 p, bodyarea, input, placeholder,
-.message-2qnXI6, .markup-2BOw-j, /*chat messages*/
-.member-3-YXUe, /*member list body*/
-.customStatusText-3YJeRZ, /*user's custom status*/
-.modeDefault-3a2Ph1, /*settings small body*/
-.emojiInput-1aLNse, .emojiAliasPlaceholder-3H_iZA, /*server settings: emoji name*/
-/*note that usually header don't use text font, but because emoji header are typed into chat, they go here*/
-.topic-TCb_qw, /*channel topic in chat header*/
-.content-38qMG0, /*channel topic popup body*/
-.bd-description /*BD: plugin/theme desc*/ {
+.message-2qnXI6, .markup-2BOw-j,
+.member-3-YXUe,
+.customStatusText-3YJeRZ,
+.modeDefault-3a2Ph1, 
+.emojiInput-1aLNse, .emojiAliasPlaceholder-3H_iZA,
+.topic-TCb_qw,
+.content-38qMG0,
+.bd-description {
 	font-family: var(--dplus-font-body), 'Roboto', '-apple-system', 'Helvetica Neue', 'system-ui', 'Arial', 'Helvetica', 'Whitney', sans-serif !important;
 }
-	/* header, titles, and headers font */
+
 header, h1,
-.nameAndDecorators-5FJ2dg, /*name in member list*/
-.headerNameWrapper-3res2c, /*nickname in profile popup*/
-.username-1A8OIy, /*username in chat*/
-.nameTag-m8r81H, /*username#tag in profile popup (pre-banner, remove after it rolls out)*/
-.headerText-2WJ44e /*username#tag in profile popup*/
-.nameTag-3uD-yy, /*your username in the bottom-left*/
-.detailsInner-1VPlWl, /*settings: your username in My Account*/
-.activityName-1IaRLn, /*user's activity name, includes song and author titles*/
-.emojiUploader-1f0pVx, /*server settings: emoji's uploader*/
-.userHook-3AdCBF, /*server settings: username in audit log*/
-.secondaryHeader-2oeRPO, /*server settings: integrations row headers such as bot header*/
-.roleName-32vpEy, /*role name in profile*/
-.roleName-1vjSQR, .roleName-2IkRdr, /*role name in server settings*/
-.membersGroup-v9BXpm, /*role name in member list*/
-.roleRow-1iQo_1, /*role name in context menu*/
-.roleMention-2Bj0ju, /*role name mention in chat*/
-.wrapper-3WhCwL, /*username or channel name mention in chat*/
-[data-slate-object="inline"] .mention, /*mention in message box*/
-.name-3l27Hl, /*category name in sidebar*/
-.name-23GUGE, /*channel name in sidebar*/
-.title-29uC1r, /*channel name in chat header*/
-.title-3sZWYQ, /*channel name in channel topic popup*/
-.bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
-.timestamp-3ZCmNB /*chat message hover timestamp (counts as a header)*/{
+.nameAndDecorators-5FJ2dg,
+.headerNameWrapper-3res2c,
+.username-1A8OIy,
+.nameTag-m8r81H,
+.headerText-2WJ44e
+.nameTag-3uD-yy, 
+.detailsInner-1VPlWl,
+.activityName-1IaRLn, 
+.emojiUploader-1f0pVx, 
+.userHook-3AdCBF,
+.secondaryHeader-2oeRPO,
+.roleName-32vpEy,
+.roleName-1vjSQR, .roleName-2IkRdr,
+.membersGroup-v9BXpm,
+.roleRow-1iQo_1,
+.roleMention-2Bj0ju,
+.wrapper-3WhCwL, 
+[data-slate-object="inline"] .mention,
+.name-3l27Hl, 
+.name-23GUGE, 
+.title-29uC1r,
+.title-3sZWYQ,
+.bd-author, .bd-meta .bd-link,
+.timestamp-3ZCmNB {
 	font-family: var(--dplus-font-header), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
 }
 
@@ -210,7 +209,7 @@ body {
 }
 
 .userPopout-xaxa6l {
-    background-color: rgba(0, 119, 255, 0.05);
+    background-color: rgba(3, 13, 32, 0.527);
 }
 
 .bodyInnerWrapper-26fQXj {
@@ -347,4 +346,23 @@ a, button, div, input, label, select, strong, textarea {
 
 .theme-dark .inset-3sAvek {
     background-color: rgba(4, 25, 49, 0.137);
+}
+
+.menu-3sdvDG {
+    box-shadow: rgb(0, 11, 30);
+    background: rgba(3, 13, 32, 0.671);
+}
+
+.markup-2BOw-j a {
+    color: rgb(0, 255, 0);
+}
+
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
+    background-color: rgba(6, 16, 37, 0.39);
+}
+
+.avatar-37jOim {
+    --avater-border-color: rgba(9, 17, 32, 0.329);
+    border: 6px solid var(--avater-border-color);
+    background-color: var(--avater-border-color);
 }
