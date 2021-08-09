@@ -213,11 +213,11 @@ body {
 }
 
 .bodyInnerWrapper-26fQXj {
-    background-color: var(--profile-popup-text-color);
+    background-color: rgba(6, 33, 65, 0.212);
 }
 
 .input-2_SIlA {
-    background-color: var(--profile-popup-text-color);
+    background-color: rgba(6, 33, 65, 0.212);
 }
 
 .footer-3UKYOU {
@@ -387,4 +387,20 @@ a, button, div, input, label, select, strong, textarea {
 
 .navButtonActive-1MkytQ {
     background-color: rgba(3, 13, 32, 0.336);
+}
+
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover {
+    background-color: rgba(8, 64, 128, 0.11);
+}
+
+.card-3RzMcx {
+    background-color: rgba(6, 52, 105, 0.270);
+}
+
+.card-3RzMcx:hover {
+    background-color: rgba(6, 52, 105, 0.135);
+}
+
+.role-2irmRk {
+    background: rgba(4, 39, 80, 0.534);
 }
