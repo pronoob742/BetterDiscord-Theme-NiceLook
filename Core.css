@@ -404,3 +404,7 @@ a, button, div, input, label, select, strong, textarea {
 .role-2irmRk {
     background: rgba(4, 39, 80, 0.534);
 }
+
+.clickable-1JJAn8.container-2Pjhx-:active, .highlighted-1gWxXa.container-2Pjhx-, .selected-aXhQR6.container-2Pjhx- {
+    color: var(--interactive-active);
+}
