@@ -408,3 +408,11 @@ a, button, div, input, label, select, strong, textarea {
 .clickable-1JJAn8.container-2Pjhx-:active, .highlighted-1gWxXa.container-2Pjhx-, .selected-aXhQR6.container-2Pjhx- {
     color: var(--interactive-active);
 }
+
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: rgb(0, 16, 35, 0.45);
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: rgba(0, 28, 63, 0.356);
+}
