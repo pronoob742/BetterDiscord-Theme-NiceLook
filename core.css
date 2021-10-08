@@ -2,7 +2,7 @@
     background: transparent !important;
 }
 
-body, button, select, ::-webkit-input-placeholder {
+::placeholder, body, button, input, select, textarea {
 	font-family: var(--dplus-font-ui), 'Poppins', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', 'Oxygen',"Pacifico", "Fredoka One", "Concert One", "Rubik", sans-serif !important;
 }
 
@@ -193,7 +193,7 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
 }
 
 body {
-    background: var(--background);
+    background: var(--background-image);
     background-size: cover;
     backdrop-filter: blur(var(--background-image-blur));
 }
@@ -457,8 +457,7 @@ a, button, div, input, label, select, strong, textarea {
 :root{
     --embed-line-width: 256px;
 }
-.embedWrapper-lXpS3L{
-}
+
 .embedFull-2tM8-- {
 
     border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
