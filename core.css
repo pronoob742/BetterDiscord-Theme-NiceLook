@@ -403,10 +403,6 @@ a, button, div, input, label, select, strong, textarea {
     background-color: rgb(0, 16, 35, 0.45);
 }
 
-.selected-aXhQR6 .layout-2DM8Md {
-    background-color: rgba(0, 28, 63, 0.356);
-}
-
 .connectedAccountIcon-3_EQqg ~ div::before {
     content: "";
     top: 0; bottom: 0; left: 0; right: 0;
@@ -444,45 +440,6 @@ a, button, div, input, label, select, strong, textarea {
 /* LOL */
 .connectedAccountIcon-3_EQqg[src="/assets/a0e2182e843745c73f7f3c8325a05ea9.png"] ~ div::before {--border-color: #CEA146;}
 
-/*Embeds*/
-:root{
-    --embed-border-radius: 8px;
-}
-.embed-IeVjo6 {
-    border-radius: var(--embed-border-radius);
-}
-.embed-IeVjo6 code{
-    background: var(--background-secondary);
-}
-:root{
-    --embed-line-width: 256px;
-}
-
-.embedFull-2tM8-- {
-
-    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
-    background: var(--background-secondary);
-}
-.grid-1nZz7S {
-    margin-left: calc( -1 * var(--embed-line-width));
-    z-index: 1;
-}
-.embedFull-2tM8--:after, .embedFull-2tM8--:before{
-    content: "";
-    height: 100%;
-    width: var(--embed-line-width);
-    position: absolute;
-    top: 0;
-    left: calc(-1 * var(--embed-line-width));
-}
-.embedFull-2tM8--:after{
-    background: linear-gradient(to right, transparent, var(--background-secondary));
-}
-.embedFull-2tM8--:before{
-    background: var(--background-secondary);
-    opacity: .8;
-}
-
 /* settings/deafen/mute buttons animated */
 .button-14-BFJ:hover .contents-18-Yxp {
   animation: UserModalButtons 0.5s normal ease;
@@ -512,4 +469,29 @@ a, button, div, input, label, select, strong, textarea {
 
 #private-channels a[href="/store"] {
     display: none;
+}
+
+.mainContent-u_9PKf, .clickable-1JJAn8.container-2Pjhx-, .clickable-1JJAn8.container-2Pjhx- .muted-3mU76i {
+    transition-duration: 0.3s;
+    transform: translateY(0px);
+}
+
+.mainContent-u_9PKf:hover, .clickable-1JJAn8.container-2Pjhx-:hover, .clickable-1JJAn8.container-2Pjhx-:hover .muted-3mU76i {
+    transform: translateY(-5px);
+}
+.mainContent-u_9PKf .noWrap-3jynv6 {
+    width: 100px;
+    opacity: 1;
+}
+
+.wrapper-2jXpOf:hover .content-1x5b-n {
+    background-color: rgba(1, 18, 39, 0.493);
+}
+
+.clickable-1JJAn8.container-2Pjhx-:hover, .clickable-1JJAn8.container-2Pjhx-:hover .muted-3mU76i {
+    background-color: rgba(0, 45, 100, 0.575);
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: rgba(1, 18, 39, 0.493);
 }
