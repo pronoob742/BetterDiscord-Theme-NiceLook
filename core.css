@@ -1,12 +1,4 @@
-:root {
-    --dplus-font-ui: var(--discord-font);
-    --dplus-font-body: var(--discord-font);
-    --dplus-font-header: var(--discord-font);
-
-	  --dplus-spacing-ui: 20px;
-	  --dplus-spacing-app: 10px;
-    --normal-backround-image: url('https://github.com/pronoob742/BetterDiscord-Theme-NiceLook/blob/main/NiceLook--Background-Image.jpg?raw=true');
-}
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 .nowPlayingColumn-2sl4cE {
     background: transparent !important;
