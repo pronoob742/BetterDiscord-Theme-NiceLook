@@ -1,10 +1,11 @@
 /**
- * @name NiceLook
+ * @name NiceLookFixed
  * @description discord Theme (Require dark mode)
  * @author Im_banana#6112
  * @version 1.0.0
  * @authorId 635250116688871425
  * @source https://github.com/pronoob742/BetterDiscord-Theme-NiceLook/tree/main
+ * @updateUrl
 */
 
 @import url("https://pronoob742.github.io/BetterDiscord-Theme-NiceLook/core.css");
@@ -12,16 +13,26 @@
 
 :root {
     --discord-font: "Rubik";
-    --normal-background-image: url('https://raw.githubusercontent.com/pronoob742/BetterDiscord-Theme-NiceLook/main/NiceLook--Background-Image.jpg');
-    --background-image: var(--normal-background-image);
+    /* hey */
+    --background-image: var(--background-image-normal);
     --background-image-blur: 2px;
+    --background-primary: var(--background-primary-normal);
+    --background-secondary: var(--background-secondary-normal);
+    --background-secondary-alt: var(--background-secondary-alt-normal);
+    --background-tertiary: var(--background-tertiary-normal);
+    --deprecated-panel-background: var(--deprecated-panel-background-normal);
+    --channeltextarea-background: var(--channeltextarea-background-normal);
     --popout-modal-blur: 0px;
     --profile-popup-text-color: rgba(6, 52, 105, 0.137);
     --text-color: rgb(221, 221, 221);
     --name-text-color: rgb(255, 255, 255);
-    --dplus-font-ui: var(--discord-font);
-    --dplus-font-body: var(--discord-font);
-    --dplus-font-header: var(--discord-font);
-    --dplus-spacing-ui: 20px;
-    --dplus-spacing-app: 10px;
+    --scrollbar-color: rgba(0, 153, 255, 0.315);
+    --avater-border-color: rgba(9, 17, 32, 0.329);
+    --channel-hover-color: var(--channel-hover-color-normal);
+    --channel-selected-color: var(--channel-selected-color-normal);
+    --friends-hover-color: var(--friends-hover-color-normal);
+    --friends-selected-color: var(--friends-selected-color-normal);
+    --settings-hover-color: var(--channel-hover-color-normal);
+    --settings-selected-color: var(--settings-selected-color-normal);
+    --tool-tip-blur: 2px;
 }
