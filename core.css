@@ -508,7 +508,7 @@ a, button, div, input, label, select, strong, textarea {
    fill:  var(--unread-message-color);
 }
 
-.unreadPillCapStroke-7rkHbg {
+.unreadPillCapStroke-7rkHbg, .isUnread-3Ef-o9 .content-1o0f9g {
     color: var(--unread-message-color);
 }
 
