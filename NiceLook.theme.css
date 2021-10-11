@@ -5,7 +5,6 @@
  * @version 1.0.0
  * @authorId 635250116688871425
  * @source https://github.com/pronoob742/BetterDiscord-Theme-NiceLook/tree/main
- * @updateUrl https://pronoob742.github.io/BetterDiscord-Theme-NiceLook/NiceLook.theme.css
 */
 
 @import url("https://pronoob742.github.io/BetterDiscord-Theme-NiceLook/core.css");
@@ -13,26 +12,26 @@
 
 :root {
     --discord-font: "Rubik";
-    /* hey */
     --background-image: var(--background-image-normal);
     --background-image-blur: 2px;
-    --background-primary: var(--background-primary-normal);
-    --background-secondary: var(--background-secondary-normal);
-    --background-secondary-alt: var(--background-secondary-alt-normal);
-    --background-tertiary: var(--background-tertiary-normal);
-    --deprecated-panel-background: var(--deprecated-panel-background-normal);
-    --channeltextarea-background: var(--channeltextarea-background-normal);
+    --tool-tip-blur: 2px;
     --popout-modal-blur: 0px;
     --profile-popup-text-color: rgba(6, 52, 105, 0.137);
     --text-color: rgb(221, 221, 221);
     --name-text-color: rgb(255, 255, 255);
     --scrollbar-color: rgba(0, 153, 255, 0.315);
     --avater-border-color: rgba(9, 17, 32, 0.329);
+    --unread-message-color: #0099E4;
     --channel-hover-color: var(--channel-hover-color-normal);
     --channel-selected-color: var(--channel-selected-color-normal);
     --friends-hover-color: var(--friends-hover-color-normal);
     --friends-selected-color: var(--friends-selected-color-normal);
     --settings-hover-color: var(--channel-hover-color-normal);
     --settings-selected-color: var(--settings-selected-color-normal);
-    --tool-tip-blur: 2px;
+    --background-primary: var(--background-primary-normal);
+    --background-secondary: var(--background-secondary-normal);
+    --background-secondary-alt: var(--background-secondary-alt-normal);
+    --background-tertiary: var(--background-tertiary-normal);
+    --deprecated-panel-background: var(--deprecated-panel-background-normal);
+    --channeltextarea-background: var(--channeltextarea-background-normal);
 }
