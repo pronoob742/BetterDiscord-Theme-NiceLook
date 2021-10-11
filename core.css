@@ -1,3 +1,5 @@
+@import url("https://pronoob742.github.io/BetterDiscord-Theme-NiceLook/HoverAnim.css");
+
 :root {
     --background-image-normal: url('https://raw.githubusercontent.com/pronoob742/BetterDiscord-Theme-NiceLook/main/NiceLook--Background-Image.jpg');
     --background-primary-normal: rgba(9, 24, 51, 0);
@@ -160,8 +162,7 @@ html:not(.reduce-motion) .itemHover-EnbcjT,
 html:not(.reduce-motion) .ui-tab-bar-item,
 html:not(.reduce-motion) #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,
 html:not(.reduce-motion) #app-mount .side-8zPYf6 .itemHover-EnbcjT:hover,
-html:not(.reduce-motion) #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
-html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
+html:not(.reduce-motion) #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover{
 	transition: background-color, color;
 	transition-duration: var(--dplus-anim-short);
 }
@@ -175,19 +176,6 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover {
 	background-color: var(--background-modifier-hover);
 }
-#app-mount .closeButton-1tv5uR {
-	border-color: var(--dplus-accent-ui);
-	border-radius: var(--dplus-radius-ui);
-}
-
-#app-mount .closeButton-1tv5uR:hover, .item-26Dhrx[aria-checked=true] {background-color: var(--dplus-accent-ui);}
-#app-mount .closeButton-1tv5uR path {fill: var(--dplus-accent-ui);}
-#app-mount .closeButton-1tv5uR:hover path {fill: white}
-#app-mount .closeButton-1tv5uR + .keybind-KpFkfr {color: var(--text-normal);}
-.background-1QDuV2 { border-radius: var(--dplus-radius-ui); }
-.item-26Dhrx:hover:not([aria-checked=true]) {background-color: var(--dplus-bgc-ui-card-hover);}
-
-
 .scrollableContainer-2NUZem {
     background-color: rgba(0, 0, 0, 0.42);
 }
@@ -201,21 +189,6 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
 .tabBar-ZmDY9v .badge-1Skb69 {
     background-color: rgb(240, 42, 42);
     margin-left: 6px;
-}
-
-#app-mount::after {
-    content: none;
-    z-index: 0;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0);
-    color: rgba(0, 0, 0, 0);
-    width: auto;
-    display: inline-block;
-    position: absolute;
-    padding: 0px;
-    box-sizing: border-box;
-    opacity: 0;
 }
 
 .userPopout-xaxa6l {
@@ -298,13 +271,7 @@ a, button, div, input, label, select, strong, textarea {
     overflow: hidden;
 }
 
-.closeButton-1tv5uR {
-    border-color: #2a78ff !important;
-}
 
-#app-mount .closeButton-1tv5uR path {
-    fill: #2a78ff;
-}
 
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
     color: var(--brand-experiment);
@@ -446,60 +413,10 @@ a, button, div, input, label, select, strong, textarea {
 /* LOL */
 .connectedAccountIcon-3_EQqg[src="/assets/a0e2182e843745c73f7f3c8325a05ea9.png"] ~ div::before {--border-color: #CEA146;}
 
-/* settings/deafen/mute buttons animated */
-.button-14-BFJ:hover .contents-18-Yxp {
-  animation: UserModalButtons 0.5s normal ease;
-}
-.container-3baos1 .noWrap-3jynv6 {
-  width: 100px;
-  opacity: 1;
-}
-.button-14-BFJ {
-  transition: 0.2s;
-}
-.button-14-BFJ:hover {
-  padding-bottom: 0px;
-  transition: 0.2;
-}
-@keyframes UserModalButtons {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 
 #private-channels a[href="/store"] {
     display: none;
 }
-
-/* HOVER ANIM */
-
-.mainContent-u_9PKf, .clickable-1JJAn8.container-2Pjhx-,
-.clickable-1JJAn8.container-2Pjhx- .muted-3mU76i,
-.listDefault-3ir5aS .clickable-1lCRLF .username-3KYl0N,
-.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh,
-.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:not(.disabled-1Hwwfb),
-.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:not(.disabled-1Hwwfb) {
-    transition-duration: 0.3s;
-    transform: translateY(0px);
-}
-
-.mainContent-u_9PKf:hover,
-.clickable-1JJAn8.container-2Pjhx-:hover, 
-.clickable-1JJAn8.container-2Pjhx-:hover .muted-3mU76i,
-.listDefault-3ir5aS .clickable-1lCRLF:hover .username-3KYl0N,
-.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover,
-.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
-.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) {
-    transform: translateY(-5px);
-}
-
-/* END */
 
 .mainContent-u_9PKf .noWrap-3jynv6 {
     width: 100px;
@@ -545,7 +462,81 @@ a, button, div, input, label, select, strong, textarea {
     border-top-color: var(--background-secondary);
 }
 
-.messagesPopoutWrap-1MQ1bW {
-    background-color: #0c0e3a9e;
-    backdrop-filter: blur(2px);
+#guild-header-popout #guild-header-popout-leave .label-22pbtT, #guild-header-popout #guild-header-popout-leave .iconContainer-2-XQPY {
+    color: #ed4245;
+}
+
+#guild-header-popout #guild-header-popout-leave:hover .label-22pbtT, #guild-header-popout #guild-header-popout-leave:hover .iconContainer-2-XQPY {
+    color: white;
+}
+
+.button-14-BFJ.enabled-2cQ-u7:hover {
+    background-color: var(--friends-hover-color);
+}
+
+.background-1QDuV2, .fieldList-21DyL8 {
+    border: 1px;
+    border-radius: 11px;
+}
+
+.fieldList-21DyL8 {
+    padding: 10px;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    color: #fff;
+    background-color: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+}
+
+.cardPrimary-1Hv-to {
+    background: var(--channel-selected-color-normal);
+    border: 1px;
+    border-radius: 10px;
+}
+
+.h5-18_1nd {
+    color: var(--text-color);
+}
+
+
+.isUnread-3Ef-o9, .unreadPill-2HyYtt, .unreadPillCapStroke-7rkHbg {
+    background-color: var(--unread-message-color);
+    border-color: var(--unread-message-color);
+}
+
+.unreadPillCap-3_K2q2 Path {
+   fill:  var(--unread-message-color);
+}
+
+.unreadPillCapStroke-7rkHbg {
+    color: var(--unread-message-color);
+}
+
+.baseShapeRound-1Mm1YW {
+    background: linear-gradient(to right, rgb(0, 60, 255), rgb(0, 153, 255)) !important;
+}
+
+.theme-dark .game-1ipmAa {
+    -webkit-box-shadow: 0 1px 0 0 transparent;
+    box-shadow: transparent;
+}
+
+.closeButton-1tv5uR {
+    border-color: #2a78ff !important;
+}
+
+#app-mount .closeButton-1tv5uR path {
+    fill: #2a78ff;
+}
+
+.theme-dark .keybind-KpFkfr {
+    color: var(--text-color);
+}
+
+.circleIcon-3EEvbO path {
+    fill: #2a78ff;
+}
+
+.circleButtonBase-33sh5_ svg path {
+    fill: #2a78ff;
 }
