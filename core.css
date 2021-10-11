@@ -540,3 +540,36 @@ a, button, div, input, label, select, strong, textarea {
 .circleButtonBase-33sh5_ svg path {
     fill: #2a78ff;
 }
+
+[class*="roleIcon"] {
+    float: left;
+    margin-left: 0rem;
+    margin-right: .25rem;
+}
+
+.role-2irmRk {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.chat-3bRxxu.threadSidebarOpen-vdkwIh {
+    resize: horizontal;
+    min-width: 400px;
+    max-width: calc(100vw - 240px - 72px - 400px);
+}
+.chat-3bRxxu:not(.threadSidebarOpen-vdkwIh) {
+    width: unset !important;
+    flex: 1 1 auto;
+}
+.threadSidebar-1o3BTy {
+    width: unset;
+    flex: 1 1 auto;
+}
+
+.tipTitle-GL9qAt{content:"";font-size: 0px;}
+.tipTitle-GL9qAt::before{content:"Hey...";font-size: 12px;}
+.tip-2cgoli{content:"";font-size: 0px;}
+.tip-2cgoli::before{content: "You're Offline :c";font-size: 16px;}
+.problems-3mgf6w.slideIn-sCvzGz{display:none;}
+.container-16j22k.fixClipping-3qAKRb{background:rgba(0, 0, 0, 0.1);backdrop-filter: blur(5px);}
