@@ -3,7 +3,9 @@
 .listDefault-3ir5aS .clickable-1lCRLF .username-3KYl0N,
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh,
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:not(.disabled-1Hwwfb),
-.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:not(.disabled-1Hwwfb) {
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:not(.disabled-1Hwwfb),
+.item-1tOPte,
+.button-14-BFJ {
     transition-duration: 0.3s;
     transform: translateY(0px);
 }
@@ -14,6 +16,8 @@
 .listDefault-3ir5aS .clickable-1lCRLF:hover .username-3KYl0N,
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover,
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
-.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) {
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
+.item-1tOPte:hover,
+.button-14-BFJ:hover {
     transform: translateY(-5px);
 }
