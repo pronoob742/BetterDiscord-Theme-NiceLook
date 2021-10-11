@@ -1,0 +1,19 @@
+.mainContent-u_9PKf, .clickable-1JJAn8.container-2Pjhx-,
+.clickable-1JJAn8.container-2Pjhx- .muted-3mU76i,
+.listDefault-3ir5aS .clickable-1lCRLF .username-3KYl0N,
+.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh,
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:not(.disabled-1Hwwfb),
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:not(.disabled-1Hwwfb) {
+    transition-duration: 0.3s;
+    transform: translateY(0px);
+}
+
+.mainContent-u_9PKf:hover,
+.clickable-1JJAn8.container-2Pjhx-:hover, 
+.clickable-1JJAn8.container-2Pjhx-:hover .muted-3mU76i,
+.listDefault-3ir5aS .clickable-1lCRLF:hover .username-3KYl0N,
+.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover,
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) {
+    transform: translateY(-5px);
+}
