@@ -573,3 +573,14 @@ a, button, div, input, label, select, strong, textarea {
 .tip-2cgoli::before{content: "You're Offline :c";font-size: 16px;}
 .problems-3mgf6w.slideIn-sCvzGz{display:none;}
 .container-16j22k.fixClipping-3qAKRb{background:rgba(0, 0, 0, 0.1);backdrop-filter: blur(5px);}
+
+.spoilerText-3p6IlD,
+.spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: transparent !important;
+}
+
+.spoilerText-3p6IlD.hidden-HHr2R9 > .inlineContent-3ZjPuv {
+    opacity: 1 !important;
+    filter: blur(3px);
+    pointer-events: unset;
+}
