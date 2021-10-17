@@ -561,3 +561,35 @@ a, button, div, input, label, select, strong, textarea {
     filter: blur(3px);
     pointer-events: unset;
 }
+
+.role-2irmRk {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.roleCircle-3xAZ1j::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: inherit;
+    opacity: 0.3;
+    z-index: -1
+}
+
+.roleName-2IkRdr {
+    z-index: 1
+}
+
+.item-PXvHYJ > .roleDot-ZwSovK::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: 0.15;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
