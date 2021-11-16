@@ -593,3 +593,22 @@ a, button, div, input, label, select, strong, textarea {
     left: 0;
     border-radius: 4px;
 }
+
+.clamped-IwJfxR{
+    -webkit-line-clamp: 190;
+    max-height:112px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+.clamped-IwJfxR::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+.clamped-IwJfxR::-webkit-scrollbar-track {
+  border-radius: 100%;
+  background-color: rgb(255 255 255 / 10%);
+}
+.clamped-IwJfxR::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00aeff, #a68eff);
+  border-radius: 100%;
+}
