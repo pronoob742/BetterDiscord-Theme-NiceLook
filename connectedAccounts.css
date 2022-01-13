@@ -1,4 +1,4 @@
-.connectedAccountIcon-3_EQqg ~ div::before {
+.connectedAccountIcon-2vls0t ~ div::before {
     content: "";
     top: 0; bottom: 0; left: 0; right: 0;
     border: 1px solid var(--border-color);
@@ -7,29 +7,29 @@
     pointer-events: none;
 }
 
-.connectedAccount-2Jb-Z0 {
+.connectedAccount-1xKpli {
     overflow: hidden;
     position: relative;
 }
 /* Spotify */
-.connectedAccountIcon-3_EQqg[src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] ~ div::before {--border-color: #1ED760;}
+.connectedAccountIcon-2vls0t[src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] ~ div::before {--border-color: #1ED760;}
 /* Github */
-.connectedAccountIcon-3_EQqg[src="/assets/6a853b4c87fce386cbfef4a2efbacb09.svg"] ~ div::before {--border-color: #fff;}
+.connectedAccountIcon-2vls0t[src="/assets/6a853b4c87fce386cbfef4a2efbacb09.svg"] ~ div::before {--border-color: #fff;}
 /* Twitch */
-.connectedAccountIcon-3_EQqg[src="/assets/ca71e0b8818221eea1deebbaf8dc6518.svg"] ~ div::before {--border-color: #563194;}
+.connectedAccountIcon-2vls0t[src="/assets/ca71e0b8818221eea1deebbaf8dc6518.svg"] ~ div::before {--border-color: #563194;}
 /* Twitter */
-.connectedAccountIcon-3_EQqg[src="/assets/85cf2b49d2a185c98ec8e383ad5a05d6.svg"] ~ div::before {--border-color: #0099E4;}
+.connectedAccountIcon-2vls0t[src="/assets/85cf2b49d2a185c98ec8e383ad5a05d6.svg"] ~ div::before {--border-color: #0099E4;}
 /* XBOX */
-.connectedAccountIcon-3_EQqg[src="/assets/1fa6585cbb8c0fe21188e26d19fc6609.svg"] ~ div::before {--border-color: #5EC220;}
+.connectedAccountIcon-2vls0t[src="/assets/1fa6585cbb8c0fe21188e26d19fc6609.svg"] ~ div::before {--border-color: #5EC220;}
 /* Reddit */
-.connectedAccountIcon-3_EQqg[src="/assets/f3224f560c8f5974355596a4f7e9ce19.svg"] ~ div::before {--border-color: #FF4500;}
+.connectedAccountIcon-2vls0t[src="/assets/f3224f560c8f5974355596a4f7e9ce19.svg"] ~ div::before {--border-color: #FF4500;}
 /* Battle.net */
-.connectedAccountIcon-3_EQqg[src="/assets/37f15a06d062bdd0fc252d2b35d0b0bb.svg"] ~ div::before {--border-color: #0099E4;}
+.connectedAccountIcon-2vls0t[src="/assets/37f15a06d062bdd0fc252d2b35d0b0bb.svg"] ~ div::before {--border-color: #0099E4;}
 /* Steam */
-.connectedAccountIcon-3_EQqg[src="/assets/d897626dfa2016ea3ad0af935acb6070.svg"] ~ div::before {--border-color: #000000;}
+.connectedAccountIcon-2vls0t[src="/assets/d897626dfa2016ea3ad0af935acb6070.svg"] ~ div::before {--border-color: #000000;}
 /* YouTube */
-.connectedAccountIcon-3_EQqg[src="/assets/57ee9535485efae7eb923ed4893abb57.svg"] ~ div::before {--border-color: #D9252A;}
+.connectedAccountIcon-2vls0t[src="/assets/57ee9535485efae7eb923ed4893abb57.svg"] ~ div::before {--border-color: #D9252A;}
 /* Facebook */
-.connectedAccountIcon-3_EQqg[src="/assets/32045743cb7670855ae726743c949e0c.svg"] ~ div::before {--border-color: #1877F2;}
+.connectedAccountIcon-2vls0t[src="/assets/32045743cb7670855ae726743c949e0c.svg"] ~ div::before {--border-color: #1877F2;}
 /* LOL */
-.connectedAccountIcon-3_EQqg[src="/assets/94dc6f30a819026fa295d85f1f72b4ab.svg"] ~ div::before {--border-color: #CEA146;}
+.connectedAccountIcon-2vls0t[src="/assets/94dc6f30a819026fa295d85f1f72b4ab.svg"] ~ div::before {--border-color: #CEA146;}
