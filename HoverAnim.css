@@ -1,23 +1,22 @@
-.mainContent-u_9PKf, .clickable-1JJAn8.container-2Pjhx-,
-.clickable-1JJAn8.container-2Pjhx- .muted-3mU76i,
-.listDefault-3ir5aS .clickable-1lCRLF .username-3KYl0N,
-.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh,
-.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:not(.disabled-1Hwwfb),
-.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:not(.disabled-1Hwwfb),
-.item-1tOPte,
-.button-14-BFJ {
-    transition-duration: 0.3s;
-    transform: translateY(0px);
+.layout-1qmrhw,
+button[aria-label="User Settings"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+button[aria-label="Deafen"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+button[aria-label="Mute"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+button[aria-label="Disconnect"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+button[aria-label="Noise Suppression powered by Krisp"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+.containerDefault-YUSmu3,
+.item-3XjbnG {
+    transition: 0.3s transform;
+    transform: translateY(0px); 
 }
 
-.mainContent-u_9PKf:hover,
-.clickable-1JJAn8.container-2Pjhx-:hover, 
-.clickable-1JJAn8.container-2Pjhx-:hover .muted-3mU76i,
-.listDefault-3ir5aS .clickable-1lCRLF:hover .username-3KYl0N,
-.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover,
-.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
-.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
-.item-1tOPte:hover,
-.button-14-BFJ:hover {
-    transform: translateY(-5px);
+.layout-1qmrhw:hover,
+button[aria-label="User Settings"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+button[aria-label="Deafen"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+button[aria-label="Mute"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+button[aria-label="Disconnect"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+button[aria-label="Noise Suppression powered by Krisp"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
+.containerDefault-YUSmu3:hover,
+.item-3XjbnG:hover {
+    transform: translateY(-5px); 
 }
