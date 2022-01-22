@@ -638,3 +638,12 @@ button[aria-label="Noise Suppression powered by Krisp"]:hover.button-12Fmur.enab
 .member-2gU6Ar:hover .layout-1qmrhw {
     background-color: var(--friends-hover-color);
 }
+
+.popout-1KHNAq {
+    background-color: rgba(0, 0, 27, 0.514);
+    backdrop-filter: blur(5px) !important;
+}
+
+.peopleListItem-u6dGxF:hover {
+    background-color: var(--friends-hover-color);
+}
