@@ -14,12 +14,6 @@
     --friends-hover-color-normal: rgba(0, 45, 100, 0.575);
     --friends-selected-color-normal: rgba(1, 18, 39, 0.493);
     --settings-selected-color-normal: rgba(13, 23, 77, 0.527);
-    --scrollbar-thin-thumb: var(--scrollbar-color);
-    --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: var(--scrollbar-color);
-    --scrollbar-auto-track: transparent;
-    --scrollbar-auto-scrollbar-color-thumb: transparent;
-    --scrollbar-auto-scrollbar-color-track: transparent;
     --dplus-font-ui: var(--discord-font);
     --dplus-font-body: var(--discord-font);
     --dplus-font-header: var(--discord-font);
@@ -385,9 +379,6 @@ a, button, div, input, label, select, strong, textarea {
     color: var(--text-color);
 }
 
-
-
-
 .theme-dark .game-1ipmAa {
     -webkit-box-shadow: 0 1px 0 0 transparent;
     box-shadow: transparent;
@@ -445,7 +436,7 @@ a, button, div, input, label, select, strong, textarea {
 .tip-1AwED_{content:"";font-size: 0px;}
 .tip-1AwED_::before{content: "You're Offline :c";font-size: 16px;}
 .problems-CvGwpb.slideIn-VAD-dp, .tip-1AwED_ > .keybindShortcut-3zF1P9.keybind-2rkdVo{display:none;}
-.container-2RRFHK.fixClipping-3GOd_d{background:rgba(0, 0, 0, 0.1);backdrop-filter: blur(5px);}
+.container-2RRFHK.fixClipping-3GOd_d{background:rgba(0, 0, 0, 0.1);backdrop-filter: blur(5px);box-shadow: none;}
 
 .spoilerText-27bIiA,
 .spoilerText-27bIiA.hidden-3B-Rum {
@@ -498,12 +489,25 @@ a, button, div, input, label, select, strong, textarea {
     background: none;
 }
 
+
+.interactive-1vLZ_I.interactive-iyXY_x:hover{
+    background: var(--friends-hover-color);
+}
+
+.interactive-1vLZ_I.interactive-iyXY_x.interactiveSelected-29CP8y.selected-3veCBZ {
+    background: var(--friends-selected-color);
+}
+
 .channel-1Shao0.container-1oeRFJ:hover .layout-1qmrhw {
     background: var(--friends-hover-color);
 }
 
-.channel-1Shao0.container-1oeRFJ.selected-1-Z6gm  .layout-1qmrhw {
-    background: var(--friends-selected-color);
+.interactive-iyXY_x.linkButton-2NshQj.interactiveSelected-29CP8y.selected-3veCBZ {
+    background: var(--channel-selected-color);
+}
+
+.interactive-iyXY_x.linkButton-2NshQj:hover {
+    background: var(--channel-hover-color);
 }
 
 .containerDefault-YUSmu3.selected-2TbFuo  .content-1gYQeQ {
@@ -643,4 +647,158 @@ button[aria-label="Noise Suppression powered by Krisp"]:hover.button-12Fmur.enab
 
 .peopleListItem-u6dGxF:hover {
     background-color: var(--friends-hover-color);
+}
+
+/* Pop-out Animation */ 
+.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: top;
+}
+
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-20deg);
+    }
+    70% {
+        transform: rotate(380deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
+    animation: spin 0.8s ease;
+}
+
+/* Better Jump To Present Button */
+[class*="jumpToPresentBar"] {
+    display: contents;
+}
+
+[class*="jumpToPresentBar"] > button:first-child {
+    display: none;
+}
+
+[class*="jumpToPresentBar"] > button:last-child {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: #5865F2;
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0px;
+    color: transparent;
+    transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+
+[class*="jumpToPresentBar"] > button svg {
+    order: -1;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    top: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #FFFFFF;
+    transition: margin .6s;
+}
+
+[class*="jumpToPresentBar"]:hover > button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: font-size .2s, color .2s .1s, padding .4s;
+}
+
+[class*="jumpToPresentBar"]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.message-2CShn3 {
+    animation: slide-up 0.4s ease;
+}
+
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+    content: " (" attr(aria-label) ")";
+    color: var(--text-muted);
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: lowercase;
+}
+
+.edited-1v5nT8:not(.message-translate-indicator) {
+    display: none;
+}
+
+.clamped-2ZePhX {
+    -webkit-line-clamp: 190;
+    max-height:112px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.clamped-2ZePhX::-webkit-scrollbar {
+    border-radius: 100px;
+}
+
+.clamped-2ZePhX::-webkit-scrollbar-track {
+    border-radius: 10px; /*How round you want the scrollbar to be. 0 is square, 10px is round.*/
+    background-color: rgb(255 255 255 / 10%); /*Edit this to what color you want the track to be.*/
+}
+
+.clamped-2ZePhX::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #00aeff, #a68eff); /* Edit this to whatever color/colors you'd like*/
+    border-radius: 10px; /*How round you want the scrollbar thumb to be. 0 is square, 10px is round.*/
+}
+
+.inset-SbsSFp {
+    background-color: #08152b7e !important;
+}
+
+.itemCard-3Etziu.wrapper-2RrXDg.outer-2JOHae.padded-2NSY6O.interactive-2zD88a:hover {
+    background-color: #0c13207e !important;
+}
+
+.header-2Kx1US.ChannelDms-channelmembers-header.topPill-3DJJNV {
+    background: rgba(9, 30, 51, 0.452);
+    border: none !important;
+}
+
+.popout-TdhJ6Z {
+    background-color: #0d1f4691;
+    backdrop-filter: blur(3px);
+}
+
+.container-8Futzw.thin-31rlnD {
+    background-color: #0d1f4691;
+    backdrop-filter: blur(3px);
 }
