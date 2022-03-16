@@ -19,6 +19,7 @@
     --profile-popup-text-color: rgba(6, 52, 105, 0.137);
     --text-color: rgb(221, 221, 221);
     --name-text-color: rgb(255, 255, 255);
+    --scrollbar-color: rgba(0, 153, 255, 0.315);
     --avater-border-color: rgba(9, 17, 32, 0.329);
     --unread-message-color: #0099E4;
     --channel-hover-color: var(--channel-hover-color-normal);
