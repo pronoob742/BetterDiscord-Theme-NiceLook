@@ -19,6 +19,12 @@
     --dplus-font-header: var(--discord-font);
     --dplus-spacing-ui: 20px;
     --dplus-spacing-app: 10px;
+    --scrollbar-thin-thumb: var(--scrollbar-color);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--scrollbar-color);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: transparent;
+    --scrollbar-auto-scrollbar-color-track: transparent;
 }
 
 body {
