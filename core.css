@@ -516,7 +516,7 @@ a, button, div, input, label, select, strong, textarea {
     background: var(--channel-hover-color);
 }
 
-.containerDefault-YUSmu3.selected-2TbFuo  .content-1gYQeQ {
+.iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
     background-color: var(--channel-selected-color);
 }
 
@@ -557,11 +557,6 @@ div.keybind-13vtq8 {
     padding: 15px;
 }
 
-:root {
-    --background-mentioned-hover: transparent;
-}
-
-
 .isUnread-3Lojb-, .unreadPill-3nEWYM, .unreadPillCapStroke-1nE1Q8 {
     background-color: var(--unread-message-color);
     border-color: var(--unread-message-color);
@@ -579,7 +574,6 @@ div.keybind-13vtq8 {
     background-color: transparent !important;
     backdrop-filter: blur(6px);
 }
-
 
 /* Settings Menu */
 .contentColumnDefault-3eyv5o {
@@ -807,4 +801,13 @@ button[aria-label="Noise Suppression powered by Krisp"]:hover.button-12Fmur.enab
 .container-8Futzw.thin-31rlnD {
     background-color: #0d1f4691;
     backdrop-filter: blur(3px);
+}
+
+
+.voiceUser-3nRK-K.clickable-1ctZ-H:hover .content-1Tgc42 {
+    background-color: var(--friends-hover-color);
+}
+
+.voiceUser-3nRK-K.clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
+    background-color: var(--friends-selected-color);
 }
