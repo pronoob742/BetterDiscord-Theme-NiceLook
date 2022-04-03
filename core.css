@@ -25,6 +25,7 @@
     --scrollbar-auto-track: transparent;
     --scrollbar-auto-scrollbar-color-thumb: transparent;
     --scrollbar-auto-scrollbar-color-track: transparent;
+    --background-mentioned-hover: transparent;
 }
 
 body {
