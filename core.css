@@ -149,8 +149,12 @@ html:not(.reduce-motion) #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover{
     background-color: #008ae6;
 }
 
-.container-1r6BKw.themed-ANHk51 {
+.container-ZMc96U.themed-Hp1KC_ {
     background: rgba(0, 11, 30, 0.062);
+}
+
+.container-ZMc96U.themed-Hp1KC_ div::after {
+    background: none;
 }
 
 .scroller-1Bvpku {
