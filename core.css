@@ -26,6 +26,10 @@
     --scrollbar-auto-scrollbar-color-thumb: transparent;
     --scrollbar-auto-scrollbar-color-track: transparent;
     --background-mentioned-hover: transparent;
+    --settings-modal-background: transparent;
+	--settings-modal-width: 1500px;
+	--settings-modal-height: 80vh;
+    --settings-background-blur: 0px;
 }
 
 body {
@@ -586,7 +590,176 @@ div.keybind-13vtq8 {
 }
 
 .sidebarRegion-1VBisG {
-    flex: 1 0 0;
+    flex: 0.6 0 0;
+}
+#app-mount .baseLayer-W6S8cY {
+	opacity: 1 !important;
+	transform: unset !important;
+	will-change: unset !important;
+}
+#app-mount .stop-animations * {
+	transition-property: inherit !important;
+	animation: inherit !important;
+}
+#app-mount .layer-86YKbF.stop-animations:first-child::after {
+	content: "" !important;
+	position: fixed !important;
+	background: rgb(0, 0, 0) !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0.85 !important;
+	z-index: 999 !important;
+	pointer-events: none !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settings-modal-background) !important;
+	border-radius: 5px !important;
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settings-modal-width) !important;
+	height: var(--settings-modal-height) !important;
+	margin: auto !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	contain: unset !important;
+	z-index: 1000 !important;
+    backdrop-filter: blur(var(--settings-background-blur)) !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF > div,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .standardSidebarView-E9Pc3j {
+	position: static !important;
+	border-radius: unset !important;
+	width: 100% !important;
+	height: 100% !important;
+	margin: unset !important;
+	padding: unset !important;
+	overflow: hidden !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
+	width: 218px !important;
+	padding: 20px 6px 20px 20px !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .contentColumnDefault-3eyv5o {
+	padding: 20px 40px !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-3K3Z4C {
+	height: var(--settings-modal-height) !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .repoHeader-2KfNvH {
+	max-width: calc(var(--settings-modal-width) - 258px) !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .standardSidebarView-E9Pc3j .editor {
+	height: calc(var(--settings-modal-height) - 120px) !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0 !important;
+	cursor: default !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V {
+	position: fixed !important;
+	top: 22px !important;
+	z-index: -1 !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .settingsToolbar-wu4yfQ {
+	display: none !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .header-2Kx1US {
+	max-width: calc(var(--settings-modal-width) - 730px) !important;
+}
+
+#app-mount .root-2zfUH6 {
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settings-modal-background) !important;
+	border-radius: 5px !important;
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settings-modal-width) !important;
+	height: var(--settings-modal-height) !important;
+	margin: auto !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	contain: unset !important;
+	z-index: 1000 !important;
+    
+}
+#app-mount .root-2zfUH6.enterDone-menWZ8 {
+	transform: unset !important;
+}
+#app-mount .perksModal-CLcR1c {
+	position: static !important;
+	border-radius: unset !important;
+	width: 100% !important;
+	height: 100% !important;
+	margin: unset !important;
+	padding: unset !important;
+}
+#app-mount .perksModal-CLcR1c::before {
+	width: var(--settings-modal-width) !important;
+	height: var(--settings-modal-height) !important;
+	margin: auto !important;
+}
+#app-mount .perksModalContentWrapper-3RHugb {
+	padding: 10px 0 10px !important;
+}
+#app-mount .root-2zfUH6 .perksModal-CLcR1c .carousel-3dvee9 {
+	margin-left: calc(-0.5 * (100vw - var(--settings-modal-width))) !important;
+}
+#app-mount .root-2zfUH6 .closeWrapper-1aVqeP,
+#app-mount .root-2zfUH6 .closeWrapper-1aVqeP .closeContent-1uXQiy,
+#app-mount .root-2zfUH6 .closeWrapper-1aVqeP .container-O54IuJ,
+#app-mount .root-2zfUH6 .closeWrapper-1aVqeP .closeButton-PCZcma {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0 !important;
+	cursor: default !important;
+    
+}
+#app-mount .root-2zfUH6 .closeWrapper-1aVqeP {
+	position: fixed !important;
+	top: 22px !important;
+	z-index: -1 !important;
 }
 /* End */
 
@@ -764,23 +937,27 @@ button[aria-label="Noise Suppression powered by Krisp"]:hover.button-12Fmur.enab
     display: none;
 }
 
-.clamped-2ZePhX {
-    -webkit-line-clamp: 190;
+.userPopoutOverlayBackground-dKOOda .scroller-1jBQYo > .section-3FmfOT:first-child > .markup-eYLPri > .lineClamp2Plus-2RYGV2,
+.userInfoText-2MFCmH > div {
+    -webkit-line-clamp: 190 !important;
     max-height:112px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
 }
 
-.clamped-2ZePhX::-webkit-scrollbar {
+.userPopoutOverlayBackground-dKOOda .scroller-1jBQYo > .section-3FmfOT:first-child > .markup-eYLPri > .lineClamp2Plus-2RYGV2::-webkit-scrollbar,
+.userInfoText-2MFCmH > div::-webkit-scrollbar {
     border-radius: 100px;
 }
 
-.clamped-2ZePhX::-webkit-scrollbar-track {
+.userPopoutOverlayBackground-dKOOda .scroller-1jBQYo > .section-3FmfOT:first-child > .markup-eYLPri > .lineClamp2Plus-2RYGV2::-webkit-scrollbar-track,
+.userInfoText-2MFCmH > div::-webkit-scrollbar-track  {
     border-radius: 10px; /*How round you want the scrollbar to be. 0 is square, 10px is round.*/
     background-color: rgb(255 255 255 / 10%); /*Edit this to what color you want the track to be.*/
 }
 
-.clamped-2ZePhX::-webkit-scrollbar-thumb {
+.userPopoutOverlayBackground-dKOOda .scroller-1jBQYo > .section-3FmfOT:first-child > .markup-eYLPri > .lineClamp2Plus-2RYGV2::-webkit-scrollbar-thumb,
+.userInfoText-2MFCmH > div::-webkit-scrollbar-thumb {
     background: linear-gradient(45deg, #00aeff, #a68eff); /* Edit this to whatever color/colors you'd like*/
     border-radius: 10px; /*How round you want the scrollbar thumb to be. 0 is square, 10px is round.*/
 }
@@ -815,4 +992,8 @@ button[aria-label="Noise Suppression powered by Krisp"]:hover.button-12Fmur.enab
 
 .voiceUser-3nRK-K.clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
     background-color: var(--friends-selected-color);
+}
+
+.rtcConnectionStatusConnected-1c73OK > div {
+    color: rgb(0, 255, 0);
 }
