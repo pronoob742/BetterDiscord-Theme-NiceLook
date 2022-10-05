@@ -1,22 +1,22 @@
-.layout-1qmrhw,
 button[aria-label="User Settings"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 button[aria-label="Deafen"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 button[aria-label="Mute"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 button[aria-label="Disconnect"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 button[aria-label="Noise Suppression powered by Krisp"].button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 .containerDefault-YUSmu3,
-.item-3XjbnG {
+.item-3XjbnG,
+.channel-1Shao0 {
     transition: 0.3s transform;
     transform: translateY(0px); 
 }
 
-.layout-1qmrhw:hover,
 button[aria-label="User Settings"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 button[aria-label="Deafen"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 button[aria-label="Mute"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 button[aria-label="Disconnect"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 button[aria-label="Noise Suppression powered by Krisp"]:hover.button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F,
 .containerDefault-YUSmu3:hover,
-.item-3XjbnG:hover {
+.item-3XjbnG:hover,
+.channel-1Shao0:hover {
     transform: translateY(-5px); 
 }
