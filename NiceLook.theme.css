@@ -1,13 +1,13 @@
 /**
  * @name NiceLook
  * @description discord Theme (Require dark mode)
- * @author Im_banana#6112
+ * @author im_banana
  * @version 1.0.0
  * @authorId 635250116688871425
- * @source https://github.com/pronoob742/BetterDiscord-Theme-NiceLook/tree/main
+ * @source https://github.com/ImBonana/BetterDiscord-Theme-NiceLook/tree/main
 */
 
-@import url("https://pronoob742.github.io/BetterDiscord-Theme-NiceLook/core.css");
+@import url("https://ImBonana.github.io/BetterDiscord-Theme-NiceLook/core.css");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 :root {
