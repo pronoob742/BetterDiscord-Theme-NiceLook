@@ -18,6 +18,8 @@
     --popout-modal-blur: 0px;
     --profile-popup-text-color: rgba(6, 52, 105, 0.137);
     --text-color: rgb(221, 221, 221);
+    --text-headers-color: var(--text-headers-color-default);
+    --text-bold-color: var(--text-bold-color-default);
     --name-text-color: rgb(255, 255, 255);
     --scrollbar-color: rgba(0, 153, 255, 0.315);
     --avater-border-color: rgba(9, 17, 32, 0.329);
