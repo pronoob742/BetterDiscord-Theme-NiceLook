@@ -1,5 +1,14 @@
+/**
+ * @name NiceLookCore
+ * @description CORE
+ * @author im_banana
+ * @version 1.0.0
+ * @authorId 635250116688871425
+ * @source https://github.com/ImBonana/BetterDiscord-Theme-NiceLook/tree/main
+*/
+
 @import url("https://pronoob742.github.io/BetterDiscord-Theme-NiceLook/HoverAnim.css");
-@import url("https://pronoob742.github.io/BetterDiscord-Theme-NiceLook/connectedAccounts.css");
+@import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 
 :root {
     --background-image-normal: url('https://raw.githubusercontent.com/pronoob742/BetterDiscord-Theme-NiceLook/main/NiceLook--Background-Image.jpg');
@@ -31,7 +40,9 @@
 	--settings-modal-height: 80vh;
     --settings-background-blur: 0px;
     --roles-roundness: 0;
-    --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px)
+    --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px);
+    --text-headers-color-default: #c300ff;
+    --text-bold-color-default: #00ccff;
 }
 
 body {
@@ -1041,4 +1052,24 @@ button[aria-label="Noise Suppression powered by Krisp"]:hover.button-12Fmur.enab
     border: 2px solid transparent;
     -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
     -webkit-mask-composite: xor;
+}
+
+.pronouns-17_QV6 {
+    color: var(--text-normal);
+    background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-primary-color) 60px,var(--profile-gradient-secondary-color));
+    padding: 2px 8px;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+[class*=messageContent] :is(h1, h2, h3),
+[class*=messageContent] u:has(:is(h1, h2, h3)),
+[class*=messageContent] s:has(:is(h1, h2, h3)) {
+    color: var(--text-headers-color);
+}
+
+[class*=messageContent] strong,
+[class*=messageContent] u:has(strong),
+[class*=messageContent] s:has(strong) {
+    color: var(--text-bold-color);
 }
