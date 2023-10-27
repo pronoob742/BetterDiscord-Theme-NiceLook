@@ -10,6 +10,7 @@
 @import url("https://ImBonana.github.io/BetterDiscord-Theme-NiceLook/core.css");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
+.theme-dark,
 :root {
     --discord-font: "Rubik";
     --background-image: var(--background-image-normal);
@@ -26,16 +27,15 @@
     --unread-message-color: #0099E4;
     --channel-hover-color: var(--channel-hover-color-normal);
     --channel-selected-color: var(--channel-selected-color-normal);
-    --friends-hover-color: var(--friends-hover-color-normal);
-    --friends-selected-color: var(--friends-selected-color-normal);
     --settings-hover-color: var(--channel-hover-color-normal);
-    --settings-selected-color: var(--settings-selected-color-normal);
     --background-primary: var(--background-primary-normal);
     --background-secondary: var(--background-secondary-normal);
-    --background-secondary-alt: var(--background-secondary-alt-normal);
     --background-tertiary: var(--background-tertiary-normal);
+    --background-theme-color: var(--background-theme-color-normal);
+    --background-theme-color-secondary: var(--background-theme-color-secondary-normal);
     --deprecated-panel-background: var(--deprecated-panel-background-normal);
     --channeltextarea-background: var(--channeltextarea-background-normal);
     --settings-background-blur: 0px;
     --settings-modal-background: transparent;
+    --background-mentioned: var(--background-mentioned-normal);
 }
