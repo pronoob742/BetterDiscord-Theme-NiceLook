@@ -178,6 +178,10 @@ div.keybind-13vtq8 {
     background: none;
 }
 
+.theme-dark .inset__61d5b {
+    background-color: var(--background-secondary);
+}
+
 .item-1OdjEX.labelContainer-2vJzYL.colorDanger-3n-KnP.colorDefault-CDqZdO {
     background-color: rgb(255, 0, 0);
 }
