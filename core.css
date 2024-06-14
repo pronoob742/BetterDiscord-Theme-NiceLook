@@ -4,11 +4,11 @@
  * @author im_banana
  * @version 1.0.0
  * @authorId 635250116688871425
- * @source https://github.com/ImBonana/BetterDiscord-Theme-NiceLook/tree/main
+ * @source https://github.com/ImBonana/ImBonana/discord-themes/NiceLook
 */
 
 :root {
-    --background-image-normal: url('https://raw.githubusercontent.com/pronoob742/BetterDiscord-Theme-NiceLook/main/NiceLook--Background-Image.jpg');
+    --background-image-normal: url('https://raw.githubusercontent.com/ImBonana/discord-themes/NiceLook/background-image.jpg');
     --background-primary-normal: rgba(9, 24, 51, 0);
     --background-secondary-normal: rgba(0, 11, 30, 0.247);
     --background-tertiary-normal: rgba(0, 11, 30, 0);
