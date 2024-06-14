@@ -104,18 +104,18 @@ body {
     background: none;
 }
 
-.spoilerContent__383f3,
 .spoilerContent__383f3.hidden_f44e41 {
     background-color: transparent !important;
-}
-
-.spoilerContent__383f3.hidden_f44e41 {
     opacity: 1 !important;
     filter: blur(3px);
     pointer-events: unset;
 }
 
-.numberBadge__40d6f.base__5ed84,
+.obscuredTextContentInner_b4656f > span {
+    opacity: 1 !important;
+}
+
+.numberBadge_c1210c.base_eaf673,
 .mention_dd733a {
     background: linear-gradient(145deg, rgba(0,151,255,1) 0%, rgba(141,0,255,1) 70%) !important;
 }
