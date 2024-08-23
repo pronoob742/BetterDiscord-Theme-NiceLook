@@ -350,28 +350,27 @@ body {
 
 
 /* SECTION - Role pill background */
-.role_e4010c {
-    .roleCircle_a26d7b:before {
-        border-radius: 4px;
-    }
-
-    .role_e4010c {
-        transform: translate(0);
-        border: 0;
-    }
-
-    .role_e4010c .roleRemoveIcon_e4010c {
-        margin: 0;
-        left: unset;
-        transform: translate(50%, -50%);
-    }
-
-    .role_e4010c .roleRemoveButton_f9575e {
-        position: static;
-    }
+[class*="role_"] [class*="roleCircle_"]:before,
+[class*="actionButton_"][class*="role_"][class*="justifyCenter_"] {
+    border-radius: 5px;
 }
 
-.root_e4010c > .role_e4010c .roleCircle_a26d7b:before {
+[class*="role_"] {
+    transform: translate(0);
+    border: 0;
+}
+
+[class*="role_"] [class*="roleRemoveIcon_"] {
+    margin: 0;
+    left: unset;
+    transform: translate(50%, -50%);
+}
+
+[class*="role_"] [class*="roleRemoveButton_"] {
+    position: static;
+}
+
+[class*="root_"] > [class*="role_"] [class*="roleCircle_"]:before {
     content: '';
     top: 0;
     left: 0;
@@ -385,17 +384,8 @@ body {
     opacity: .4;
 }
 
-.roles_fa2f72 {
+[class*="roles_"] {
     color: var(--text-normal);
-}
-
-/* SECTION - pronouns background */ 
-.pronouns_c9ccf6 {
-    color: var(--text-normal);
-    background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-primary-color) 60px,var(--profile-gradient-secondary-color));
-    padding: 2px 8px;
-    margin-top: 3px;
-    border-radius: 4px;
 }
 
 /* SECTION - bold colors */ 
