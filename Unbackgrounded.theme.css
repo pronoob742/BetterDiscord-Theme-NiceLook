@@ -57,6 +57,12 @@ body::before {
     }
 }
 
+/* SECTION - call background */
+.chat_a7d72e .wrapper_d880dc,
+.callContainer_d880dc {
+    background-color: rgba(0, 0, 0, var(--var-opacity-inner-messages));
+}
+
 /* SECTION - blur spoiler */
 .spoilerContent_aa9639.hidden_aa9639 {
     background-color: transparent !important;
