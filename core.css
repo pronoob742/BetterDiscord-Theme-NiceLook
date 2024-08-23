@@ -50,11 +50,7 @@ body {
     backdrop-filter: blur(var(--background-image-blur));
 }
 
-::placeholder, body, button, input, select, textarea {
-	font-family: var(--dplus-font-ui), 'Poppins', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', 'Oxygen',"Pacifico", "Fredoka One", "Concert One", "Rubik", sans-serif !important;
-}
-
-* {
+*, ::placeholder {
 	font-family: var(--dplus-font-body), 'Roboto', '-apple-system', 'Helvetica Neue', 'system-ui', 'Arial', 'Helvetica', 'Whitney', sans-serif !important;
 }
 
